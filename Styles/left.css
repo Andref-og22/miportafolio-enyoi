@@ -1,0 +1,119 @@
+/* Estilo general para el body en left-container */
+
+body .left-container  {
+    width: 28%; 
+    height: 100%;
+    background: linear-gradient( var(--first-color), var(--third-color)); 
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+}
+
+
+/*TAMAÑO DEL HEADER*/
+body header {
+    width: 100%;
+    height: 90%;
+}
+
+/* Estilo de la imagen de perfil*/
+.container-img-profile img {
+    width: 135px;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: -50px;
+    margin-top: -20px;
+}
+
+/* Estilos para nombre del perfil*/
+.container-name-profile h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(162, 120, 230);
+    text-shadow: 2px 2px 5px rgba(93, 149, 223, 0.6);
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+h1:hover {
+    color:rgb(209, 38, 209)
+}
+
+/* Estilos para los botones de navegación*/
+.navbar-profile ul {
+    list-style: none;
+    padding: 0;
+    margin-top: -200px;
+}
+
+.navbar-profile li {
+    margin: 3px 0;
+}
+
+.navbar-profile button {
+    background-color: #c436ba; 
+    color: rgb(203, 140, 223);
+    border: none;
+    padding: 6px 10px;
+    font-size: 1.5rem;
+    font-family: fantasy;
+    font-weight: 400;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 200px;
+    margin: 10px;
+}
+
+.navbar-profile button:hover {
+    transform: scale(1.4);
+    background-color: #0e7696;
+    color: rgb(209, 38, 209);
+}
+
+
+
+/* ESTILO PARA EL FOOTER */
+
+footer {
+    width: 100%;
+    height: 10%;
+    background-color: #333;
+    color: white;
+    margin-left: -3px;
+    margin-top: 27px;
+}
+
+/* Estilos para los iconos de redes sociales de contacto*/
+.navbar-social-networks ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.navbar-social-networks a {
+    font-size: 25px;
+}
+
+/* Estilos para el texto del footer*/
+
+footer p {
+    align-content: center;
+    font-size: 10px;
+    color: rgb(253, 251, 251);
+    margin: 2px;
+    margin-top: -11px;
+    
+}

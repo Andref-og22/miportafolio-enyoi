@@ -1,0 +1,101 @@
+/* ESTILOS PARA EL LADO DERECHO DE LA PAGINA*/
+
+/*Estilos generales*/
+body > .right-container {
+    width: 72%;
+    height: max-content;
+    background: linear-gradient(90deg, rgb(20, 104, 143) 0%, rgb(91, 21, 182) 100%);
+    position: relative;
+    left: 28%;
+    padding: 20px;
+}
+
+/*Estilos para main*/
+.right-container > .main-container {
+    width: 98%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Estilos para las secciones (4)*/
+.section-info {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.section-info > h2 {
+    font-size: 2rem;
+    color: rgb(127, 218, 224);
+    border-bottom: solid 3px white;
+    padding-bottom: 0.5rem;
+}
+
+.section-profile > p {
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    color: rgb(239, 238, 243);
+    margin-top: 0.5rem;
+    text-align: justify;
+}
+
+.container-img-card img {
+    width: 100px;
+    height: 100px;
+    margin-top: 1rem;
+}
+
+.card-projects-uno .card-reference-dos .card-reference-tres .card-reference-cuatro{
+    width: 250px;
+    background-color: white;
+    padding: 15px;
+    border-width: 8px;
+}
+
+
+
+/*Estilos para las referencias*/
+.section-references .card-references {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-reference-uno, .card-reference-dos, .card-reference-tres {
+    width: 250px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-reference-uno p, .card-reference-dos p, .card-reference-tres p {
+    font-size: 1rem;
+    color: rgb(91, 21, 182);
+    margin-bottom: 10px;
+}
+
+/*Estilo para las card de experiencia*/
+.container-experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilos para las imágenes de la sección de experiencia */
+.section-experience .container-experience .card-experience img {
+    width: 80px;  /* Establecer un tamaño adecuado para las imágenes */
+    height: 80px;
+    object-fit: contain; /* Asegura que la imagen mantenga su aspecto sin distorsionarse */
+    border-radius: 50%;  /* Dar un borde redondeado a las imágenes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Añadir sombra para mayor estilo */
+    margin-bottom: 15px;
+}
+
+

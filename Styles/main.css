@@ -1,0 +1,17 @@
+:root {
+    --first-color: rgb(15, 62, 117);
+    --second-color: rgb(2, 32, 87);
+    --third-color: rgb(119, 6, 119);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 98vw;
+    height: auto;
+    display: flex;
+}
